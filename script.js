@@ -18,13 +18,13 @@ const displayMeals = (data) => {
          <div class="meal" id="meal">
                 <div class="img"><img src="${meal.strMealThumb}" alt="Meal Image"></div>
                 <h2>${meal.strMeal}</h2>
-                <p>${meal.strInstructions}</p>
-                <p>ing 1</p>
-                <p>ing 2</p>
-                <p>ing 3</p>
-                <p>ing 4</p>
-                <p>ing 5</p>
-                <button>Watch Video</button>
+                <p class = "ing">${meal.strInstructions}</p>
+                <p>${meal.strIngredient1}</p>
+                <p>${meal.strIngredient2}</p>
+                <p>${meal.strIngredient3}</p>
+                <p>${meal.strIngredient4}</p>
+                <p>${meal.strIngredient5}</p>
+                <button><a href="${meal.strYoutube}" target = "_blank">Watch Video</a></button>
             </div>
         `
     });
