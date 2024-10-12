@@ -7,7 +7,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-color: #001F3F;
+    background-color: #B7E0FF;
 }
 .container{
     margin: 0 50px;
@@ -27,14 +27,16 @@ button{
     font-weight: 700;
 }
 h1{
-    color: white;
+    color:#001F3F;
     margin: 0;
     margin-bottom: 20px;
 }
 .meal{
-    background-color: #B7E0FF;
+    background-color: #001F3F;
     padding: 18px;
-    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    color: white;
 }
 p, h2{
     margin: 0;
