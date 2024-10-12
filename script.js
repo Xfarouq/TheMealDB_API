@@ -19,7 +19,7 @@ const displayMeals = (data) => {
     mealList.innerHTML = ''; // Clear previous results
 
     if (!data.meals || data.meals.length === 0) {
-        mealList.innerHTML = '<p>No meals found. Try another search.</p>'; // Display message if no meals found
+        mealList.innerHTML += '<p>No meals found. Try another search.</p>'; // Display message if no meals found
         return;
     }
 
@@ -47,7 +47,7 @@ document.getElementById('searchButton').addEventListener('click', () => {
     if (query) {
         fetchData(query); // Fetch and display meals based on search query
     } else {
-        document.getElementById("meal_list").innerHTML = '<p>Please enter a search term.</p>';
+        document.getElementById("meal_list").innerHTML += '<p>Please enter a search term.</p>';
     }
 });
 
