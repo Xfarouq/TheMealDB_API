@@ -25,18 +25,28 @@ button{
     background-color: red;
     color: white;
     font-weight: 700;
+    cursor: pointer;
 }
 h1{
     color:#001F3F;
     margin: 0;
     margin-bottom: 20px;
+    font-size: 50px;
+}
+.meal_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .meal{
     background-color: #001F3F;
     padding: 18px;
     border-radius: 15px;
-    box-shadow: 0 0px 6px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
     color: white;
+    width: 300px;
 }
 p, h2{
     margin: 0;
