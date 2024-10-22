@@ -28,13 +28,12 @@ const displayMeals = (data) => {
         mealList.innerHTML += `
          <div class="meal" id="meal">
                 <div class="img"><img src="${meal.strMealThumb}" alt="Meal Image"></div>
-                <h2>${meal.strMeal}</h2>
+                <h2>${meal.strMeal.slice(0, 60)}</h2>
                 <p class="ing">${meal.strInstructions.slice(0, 100)}...</p>
                 <p>${meal.strIngredient1} - ${meal.strMeasure1}</p>
                 <p>${meal.strIngredient2} - ${meal.strMeasure2}</p>
                 <p>${meal.strIngredient3} - ${meal.strMeasure3}</p>
                 <p>${meal.strIngredient4} - ${meal.strMeasure4}</p>
-                <p>${meal.strIngredient5} - ${meal.strMeasure5}</p>
                 <button><a href="${meal.strYoutube}" target="_blank">Watch Video</a></button>
             </div>
         `;
